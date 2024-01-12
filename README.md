@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/ohenekwabena/age-calculator)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/ohenekwabena/age-calculator]
+- Live Site URL: [https://age-calculator-bwe2hp3rw-jesses-projects-61d39ab9.vercel.app/]
 
 ## My process
 
