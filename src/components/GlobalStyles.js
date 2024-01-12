@@ -63,11 +63,15 @@ table {
     This ensures that all portal content (modals and tooltips) will
     float above the app.
     */
+ 
+    isolation: isolate;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: var(--off-white);
     display: flex;
     align-items: center;
     justify-content: center;
-    isolation: isolate;
 }
 
 html {
@@ -79,7 +83,6 @@ html {
 
 html, body, #root {
   min-height: 100vh;
-  height: 100%;
   --purple: hsl(259, 100%, 65%);
   --light-red: hsl(0, 100%, 67%);
   --white: hsl(0, 0%, 100%);
@@ -88,6 +91,7 @@ html, body, #root {
   --smokey-grey: hsl(0, 1%, 54%);
   --off-black: hsl(0, 0%, 15%);
 }
+
 `;
 
 export default GlobalStyles;
