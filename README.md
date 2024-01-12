@@ -115,3 +115,5 @@ Oo and styled-components. They are absolute;y amazing. Just the fact that it can
 ## Acknowledgments
 
 Josh Comeau! What a mental motivation this guy is!.I recommend his news letters and courses. He is really great.
+
+And finally a big thank you to frontend Mentor for the design and assist!
