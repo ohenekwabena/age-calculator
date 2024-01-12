@@ -270,7 +270,7 @@ const InputWrapper = styled.div`
 `;
 
 const ArrowImg = styled.img`
-  background-color: ${(props) => (props.hasError ? "var(--off-black)" : "var(--purple)")};
+  background-color: ${(props) => (props.hasError ? "var(--light-red)" : "var(--purple)")};
   position: absolute;
   bottom: -32px;
   left: 40%;
