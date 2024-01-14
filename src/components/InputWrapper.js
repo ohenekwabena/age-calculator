@@ -81,9 +81,10 @@ function InputForm({ onSend }) {
   const monthIsValid = touched.month && values.month > 0 && values.month <= 12;
   const yearIsValid = touched.year && values.year >= 1900 && values.year <= 2018;
   const wrongDate =
-    ((values.month == 4 || values.month == 6 || values.month == 9 || values.month == 11) && values.day > 30) ||
-    (values.month == 2 && isLeapYear && values.day > 29) ||
-    (values.month == 2 && !isLeapYear && values.day > 28);
+    ((values.month === "4" || values.month === "6" || values.month === "9" || values.month === "11") &&
+      values.day > 30) ||
+    (values.month === "2" && isLeapYear && values.day > 29) ||
+    (values.month === "2" && !isLeapYear && values.day > 28);
 
   const hasError = !dayIsValid || !monthIsValid || !yearIsValid || wrongDate;
 
