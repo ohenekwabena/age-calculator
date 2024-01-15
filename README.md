@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/ohenekwabena/age-calculator]
-- Live Site URL: [https://age-calculator-bwe2hp3rw-jesses-projects-61d39ab9.vercel.app/]
+- Live Site URL: [https://65a473bef781ffccd6282a90--dynamic-mochi-ea69c0.netlify.app/]
 
 ## My process
 
